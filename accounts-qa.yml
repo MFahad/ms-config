@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome ding dong cokc"
+  contactDetails:
+    name: "John Dongdong - QA Lead"
+    emails: "jane@eazybank.com"
+  onCallSupport:
+    - (666) 555-1234
+    - (666) 323-8739

@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome ding dong cokc"
+  contactDetails:
+    name: "Kaja Dongdong - Prod support"
+    emails: "jane@eazybank.com"
+  onCallSupport:
+    - (666) 555-1234
+    - (666) 323-8739
