@@ -2,9 +2,9 @@ build:
   version: "2.0"
 
 accounts:
-  message: "Welcome ding dong cokc"
+  message: "Welcome from accounts microservie from QA region"
   contactDetails:
-    name: "John Dongdong - QA Lead is responsible for quality check so blame him if this doesn't work :P"
+    name: "John Dongdong - QA Lead is responsible for quality checks please find his details below"
     emails: "jane@eazybank.com"
   onCallSupport:
     - (666) 555-1234
