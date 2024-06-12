@@ -6,8 +6,6 @@ accounts:
   contactDetails:
     name: "John Dongdong - QA Lead"
     email: "jane@eazybank.com"
-    name: "Charlie"
-    email: "ch@idiot.com"
   onCallSupport:
     - (666) 555-1234
     - (666) 323-8739
