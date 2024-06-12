@@ -4,8 +4,11 @@ build:
 accounts:
   message: "Welcome from accounts microservie from QA region"
   contactDetails:
-    name: "John Dongdong - QA Lead is responsible for quality checks please find his details below"
-    emails: "jane@eazybank.com"
+    name: "John Dongdong - QA Lead"
+    email: "jane@eazybank.com"
+    name: "Charlie"
+    email: "ch@idiot.com"
   onCallSupport:
     - (666) 555-1234
     - (666) 323-8739
+    - (555) 323-8543
