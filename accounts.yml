@@ -2,11 +2,12 @@ build:
   version: "3.0"
 
 accounts:
-  message: "Welcome ding dong cokc"
+  message: "ACCOUNTs Service"
   contactDetails:
     name: "John Doe - Dev"
     emails: "jane@eazybank.com"
   onCallSupport:
       - (555) 555-1234
       - (555) 323-8739
+      - (444) 323-7879
 
