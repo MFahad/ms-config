@@ -5,7 +5,7 @@ eureka:
   instance:
     hostname: localhost
   client:
-    fetchRegistry: false
-    registerWithEureka: false
+    fetchRegistry: false #the eureka server won't call ms witch is why we set this as false. Other ms will have this true
+    registerWithEureka: false #we don't want eureka to regist it self
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #URL for other ms to connect to get other ms detals and register themselves
