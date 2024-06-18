@@ -1,0 +1,12 @@
+server:
+  port: 8072
+
+#eureka related server connection
+eureka:
+  instance:
+    preferIpAddress: true # we want the ms to register with it's ip address instead of the DNS since no dns is set up on local
+  client:
+    fetchRegistry: true #ms need to fecth the registry details like ip and port
+    registerWithEureka: true #ms should be able to register itself to the ms
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/ #URL for other ms to connect to get other ms detals and register themselves
